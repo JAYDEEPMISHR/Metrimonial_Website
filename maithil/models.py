@@ -4,4 +4,5 @@ from django.db import models
 
 class Signup(models.Model):
 	usename=models.CharField(max_length=200)
+	email=moddls.EmailField()
 	
