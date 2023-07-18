@@ -7,3 +7,6 @@ class Signup(models.Model):
 	email=models.EmailField()
 	password=models.CharField(max_length=100)
 	gender=models.CharField(max_length=100)
+	city=models.CharField(max_length=50)
+	address=models.TextField()
+	zipcode=models.PositiveIntegerField()
